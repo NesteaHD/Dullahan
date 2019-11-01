@@ -20,11 +20,8 @@ public class MovementController : MonoBehaviour
         {
             //Read vertical data
             float vertical = Input.GetAxis("Vertical");
-            //Calculate movement based on data
             movement = new Vector3(0, 0, vertical);
-            //Transform movement to local coordinates
             movement = transform.TransformDirection(movement);
-            //Multiply by character speed
             movement *= speed;
             //Jump
             if (Input.GetButton("Jump"))
