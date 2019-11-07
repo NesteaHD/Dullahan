@@ -1,3 +1,2 @@
 # Project "Dullahan"
-Mandatory Work 1 from CPA Master.
-
+Mandatory work for a small Unity project.
